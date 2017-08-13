@@ -1,4 +1,4 @@
-FROM centos:7.0.1511
+FROM centos:7.2.1511
 RUN mkdir -p /home/admin/bin   && \
     mkdir -p /home/admin/conf   && \
     yum -y install wget && \
